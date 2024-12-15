@@ -119,6 +119,7 @@ class MainPageState extends ConsumerState<MainPage> {
     final dataPayload = ref.watch(dataPayloadProvider);
 
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       appBar: const PreferredSize(
         preferredSize: Size.fromHeight(90),
         child: CustomAppBar(),

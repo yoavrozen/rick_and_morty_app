@@ -11,7 +11,7 @@ class Texts {
   static const String dead = "Dead";
   static const String alive = "Alive";
   static const String unknown = "unknown";
-  static const String searchCharactersByName = "Search Characters";
+  static const String searchCharactersByName = "Search";
   static String errorText(Object error) => "An error has occurred: $error";
   static const String loadingMoreCharacters = "Loading more characters...";
   static const String filterByStatus = "Filter by Status";
